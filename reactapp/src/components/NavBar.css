@@ -1,0 +1,46 @@
+nav {
+    background-color: #6a1b9a;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: white;
+    margin: 0;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    align-items: center;
+}
+
+nav ul li a, nav ul li button {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+nav ul li a:hover, nav ul li button:hover {
+    text-decoration: underline;
+}
+
+.badge {
+    background-color: #e53935;
+    color: white;
+    border-radius: 50%;
+    padding: 0.2em 0.6em;
+    font-weight: bold;
+    font-size: 0.8rem;
+    position: absolute;
+    top: -8px;
+    right: -15px;
+}

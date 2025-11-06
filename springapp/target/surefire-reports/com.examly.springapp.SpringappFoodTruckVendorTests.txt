@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: com.examly.springapp.SpringappFoodTruckVendorTests
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 5.986 s <<< FAILURE! - in com.examly.springapp.SpringappFoodTruckVendorTests
+com.examly.springapp.SpringappFoodTruckVendorTests.controller_testGetAllFoodTruckVendors  Time elapsed: 0.063 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<401>
+	at com.examly.springapp.SpringappFoodTruckVendorTests.controller_testGetAllFoodTruckVendors(SpringappApplicationTests.java:56)
+
+com.examly.springapp.SpringappFoodTruckVendorTests.controller_testAddFoodTruckVendor  Time elapsed: 0.031 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<401>
+	at com.examly.springapp.SpringappFoodTruckVendorTests.controller_testAddFoodTruckVendor(SpringappApplicationTests.java:34)
+
+com.examly.springapp.SpringappFoodTruckVendorTests.config_test_CorsConfiguration_Has_Configuration_Annotation  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappFoodTruckVendorTests.checkClassHasAnnotation(SpringappApplicationTests.java:202)
+	at com.examly.springapp.SpringappFoodTruckVendorTests.config_test_CorsConfiguration_Has_Configuration_Annotation(SpringappApplicationTests.java:151)
+
+com.examly.springapp.SpringappFoodTruckVendorTests.exception_testAddFoodTruckVendor_InvalidOperatingRegion  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<400> but was:<401>
+	at com.examly.springapp.SpringappFoodTruckVendorTests.exception_testAddFoodTruckVendor_InvalidOperatingRegion(SpringappApplicationTests.java:46)
+

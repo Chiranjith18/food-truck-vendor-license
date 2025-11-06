@@ -1,0 +1,14 @@
+package com.examly.springapp.model;
+
+public enum ApplicationStatus {
+    DRAFT,
+    SUBMITTED,
+    INREVIEW,
+    REVIEW_APPROVED,
+    REVIEW_REJECTED,
+    INSPECTIONSCHEDULED,
+    INSPECTIONAPPROVED,
+    INSPECTIONREJECTED,
+    APPROVED,
+    REJECTED, LICENSE_ISSUED, RENEWAL_REQUESTED
+}
